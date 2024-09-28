@@ -1,0 +1,56 @@
+.heading{/* Styling the Header*/
+    text-align: center;
+    font-size: 30px ;
+    color: black;
+}
+body{/* Styling the background with an image of the animals habitat*/
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('Images/RhinoHabitat.webp');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    image-rendering:auto;
+}
+.paragraph{/*Styling the paragraph */
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    width: 50%;
+    float: right;
+    padding: 30px;
+
+}/* */
+.RhinoDisplay{/*Positioning the Rhino display */
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    width: 500x;
+    height: 350px;
+}
+
+/* This is incase the screen is bigger than my laptop*/
+@media screen and (max-width: 1200px) {
+    .heading{
+        text-align: center;
+        font-size: 60px ;
+        color: black;
+        padding: 20px;
+    }
+
+    .paragraph{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        text-align: center;
+        color: black;
+        width: 50%;
+        float: right;
+        padding: 120px;
+    }
+    .RhinoDisplay{
+        position: absolute;
+        top: 250px;
+        left: 20px;
+        width: 700px;
+        height: 500px;
+    }
+}

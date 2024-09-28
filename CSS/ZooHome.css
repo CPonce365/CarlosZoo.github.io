@@ -1,0 +1,91 @@
+.heading{/* Styling the Header*/
+    text-align: center;
+    font-size: 20px ;
+}
+
+.header{/*Styling the instructions that tells the user what to do */
+    text-align: center;
+    font-size: 20px;
+}
+body{/*Making a picture the background of the Zoo homepage */
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('Images/ZooBackground.webp');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    image-rendering:auto;
+}
+img{/*Making each picture in a circular frame for aesthetics */
+    border-radius: 50%;
+}
+.CapybaraFrame{/*Positioning the Capybara image */
+    position:absolute;
+    top: 250px;
+    left: 350px;
+    width: 175px;
+    height: 175px;
+}
+.RhinoFrame{/*Positioning the Rhino image */
+    position:absolute;
+    top: 125px;
+    left: 525px;
+    width: 175px;
+    height: 175px;
+}
+.ElephantFrame{/*Positioning the Elephant image */
+    position:absolute;
+    top: 250px;
+    right: 400px;
+    width: 175px;
+    height: 175px;
+}
+.DuckFrame{/*Positioning the Duck image */
+    position:absolute;
+    bottom: 25px;
+    left: 525px;
+    width: 175px;
+    height: 175px;
+}
+
+/* This is incase the screen is bigger than my laptop*/
+@media screen and (max-width: 1200px) {
+    .header{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 25px;
+    }
+    .heading{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 40px ;
+    }
+    .CapybaraFrame{
+        position:absolute;
+        top: 400px;
+        left: 450px;
+        width: 300px;
+        height: 300px;
+    }
+    .RhinoFrame{
+        position:absolute;
+        top: 150px;
+        left: 775px;
+        width: 300px;
+        height: 300px;
+
+    }
+    .ElephantFrame{
+        position:absolute;
+        top: 400px;
+        right: 450px;
+        width: 300px;
+        height: 300px;
+    }
+    .DuckFrame{
+        position:absolute;
+        bottom: 25px;
+        left: 775px;
+        width: 300px;
+        height: 300px;
+    }
+}
